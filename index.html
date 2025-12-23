@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>devscale-week-1</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Grotesk:wght@300..700&display=swap"
+    rel="stylesheet">
+  <link href="/src/style.css" rel="stylesheet">
+
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+
+<body>
+  <div id="app" class="font-inter h-screen bg-linear-65 from-gray-600 to-blue-100/50">
+    <section class="flex flex-col items-center py-10">
+      <div class="border-4 border-[#253745] rounded-full">
+        <img id="avatar" class="w-40 rounded-full" src="https://mockmind-api.uifaces.co/content/cartoon/2.jpg">
+      </div>
+      <div class="font-grotesk text-center mt-4">
+        <h3 id="name" class="text-2xl font-semibold tracking-tight text-[#06141B]">Loading...
+        </h3>
+        <p id="bio" class="text-[#253745]">Loading...</p>
+        <p id="email" class="text-[#253745] flex justify-center items-center gap-2">
+          <i class="fa-regular fa-envelope"></i>
+          <span class="email-text">Loading...</span>
+        </p>
+
+        <p id="birthdate" class="text-[#253745] flex justify-center items-center gap-2">
+          <i class="fa-solid fa-cake-candles"></i>
+          <span class="birthdate-text">Loading...</span>
+        </p>
+      </div>
+
+      <div class="w-full max-w-3xs space-y-2 mt-5 font-normal text-sm tracking-[.1em]">
+        <div
+          class="flex justify-center items-center w-full h-10 cursor-pointer border border-transparent hover:text-[#9ba8ab] rounded-lg shadow-sm p-4 bg-[#253745] hover:bg-[#11212d] text-[#ccd0cf]">
+          <span class="mr-2"><i class="fa-brands fa-github"></i></span>GitHub
+        </div>
+        <div
+          class="flex justify-center items-center w-full h-10 cursor-pointer border border-transparent hover:text-[#9ba8ab] rounded-lg shadow-sm p-4 bg-[#253745] hover:bg-[#11212d] text-[#ccd0cf]">
+          <span class="mr-2"><i class="fa-brands fa-linkedin-in"></i>
+          </span>LinkedIn
+        </div>
+        <div
+          class="flex justify-center items-center w-full h-10 cursor-pointer border border-transparent hover:text-[#9ba8ab] rounded-lg shadow-sm p-4 bg-[#253745] hover:bg-[#11212d] text-[#ccd0cf]">
+          <span class="mr-2"><i class="fa-brands fa-instagram"></i>
+          </span>Instagram
+        </div>
+        <div
+          class="flex justify-center items-center w-full h-10 cursor-pointer border border-transparent hover:text-[#9ba8ab] rounded-lg shadow-sm p-4 bg-[#253745] hover:bg-[#11212d] text-[#ccd0cf]">
+          <span class="mr-2"><i class="fa-brands fa-x-twitter"></i>
+          </span>Twitter
+        </div>
+      </div>
+    </section>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
